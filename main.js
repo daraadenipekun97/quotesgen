@@ -7,7 +7,9 @@ function getquotes() {
 
       let print = Math.floor(Math.random() * data.motivate.length);
       let newPrint = data.motivate[print].quotes;
-      displayjs.innerHTML = `${newPrint}`
+      displayjs.innerHTML = `${newPrint}`;
+      displayjs.style.color = "black";
+      displayjs.style.fontWeight = "bold";
 
 
 
